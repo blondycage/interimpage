@@ -1,0 +1,41 @@
+.landingpic {
+  margin: 0 auto;
+  min-width: 650px;
+  background-image: url("/WhatsApp.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #464646;
+  min-height: 650px;
+}
+body {
+  margin: 5%;
+  background-color: rgba(255, 235, 205, 0.233);
+}
+h1,
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 300px;
+  padding: 15px 0;
+
+  background-size: 450px;
+}
+form > * {
+  margin: 0 auto;
+  margin-bottom: 15px;
+  width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid black;
+}
+button {
+  background-color: blue;
+  border: none;
+  width: 100px;
+  color: white;
+}
