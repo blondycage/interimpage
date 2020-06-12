@@ -9,7 +9,7 @@
   min-height: 650px;
 }
 body {
-  margin: 5%;
+  margin: 3%;
   background-color: rgba(255, 235, 205, 0.233);
 }
 h1,
@@ -40,4 +40,19 @@ button {
   border: none;
   width: 150px;
   color: white;
+}
+@media (max-width: 976px) {
+  body {
+    margin: 0;
+  }
+  .landingpic {
+    margin: 0 auto;
+    min-width: 650px;
+    background-image: url("/WhatsApp.jpeg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    min-height: 650px;
+  }
 }
